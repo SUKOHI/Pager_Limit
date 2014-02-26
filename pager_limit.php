@@ -52,7 +52,7 @@ class Pager_Limit {
 	$pl = new Pager_Limit(array(
 	
 		'page' => $_GET['p'],
-		'per_page' => $per_page,
+		'per_page' => $per_page
 	
 	));
 	echo $pl->getResult();
